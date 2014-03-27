@@ -1,7 +1,7 @@
-# Gradual Java
-A research project with the goal to allow gradual integration of
-refined type systems in Java (e.g. type systems for physical
-dimensions, effects, security, ...)
+# Security-Type for Java
+A research project with the goal to allow gradual integration of refined type systems in Java (e.g. type systems for physical dimensions, effects, security, ...)
+
+**This branch includes the final version of the team project and will not be developed in the future.**
 
 ## Setup
 Required software:
@@ -350,7 +350,7 @@ Currently no bugs are known.
 
 ## Informations
 developer: [Thomas Vogel](mailto:vogelt@informatik.uni-freiburg.de)  
-last-modified: 23:20:00 10/20/2013
+last-modified: 10:00:00 03/27/2014
 
 
 [1]: http://www.eclipse.org/juno/ "Download Eclipse Juno"
