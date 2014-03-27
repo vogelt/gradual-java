@@ -1,7 +1,8 @@
 # Security-Type for Java
-A research project with the goal to allow gradual integration of refined type systems in Java (e.g. type systems for physical dimensions, effects, security, ...)
 
-**This branch includes the final version of the team project and will not be developed in the future.**
+> This branch includes the final version of the team project and will not be developed in the future.
+
+A research project with the goal to allow gradual integration of refined type systems in Java (e.g. type systems for physical dimensions, effects, security, ...)
 
 ## Setup
 Required software:
