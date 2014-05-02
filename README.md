@@ -325,6 +325,14 @@ looks up the *security level* of the returned value and compares it with the exp
 ## Output
 The output depends on the specified options when performing the analysis (see [Run the analysis](#run-the-analysis)). If no log-levels are specified, then the analysis will not output any message, otherwise it will output the messages which have one of the specified levels. As default the analysis outputs the messages via the console, but the analysis can also output the messages in multiple files using the corresponding option. Depending on the option whether it should print the messages instantaneously the output occurs at the moment in which a message is logged. In this case and if the export to a file is enabled, a file for each method will be created which contains the messages corresponding to this method. Otherwise, if it should not print immediately and the export to a file is enabled, a file for each class will be created which contains all messages corresponding to the class or to a method of the class. The files will be stored in the folder `output/security/` inside of the working directory.
 
+## Test Cases
+
+The project `TaintTracking` contains an
+[Apache Ant](http://ant.apache.org/) build script that runs a
+test-suite. To run it, rename the file `build-properties.xml.template`
+to `build-properties.xml` and customize it to your system. Then just
+run `ant` in the `TaintTracking` folder.
+
 -----
 
 ## Bugs

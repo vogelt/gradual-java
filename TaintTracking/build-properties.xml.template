@@ -1,0 +1,40 @@
+<project name="TaintTracking - Test Setup" basedir="../" default="end" >
+
+<!-- Please modify these paths to match your system.
+     Paths are
+     1) relative to the repository root when using the "location" attribute
+     2) absolute when using the "value" attribute
+-->
+
+<!-- Path to the JUnit jar. -->
+<property name="junit.jar" location="TaintTracking/libs/junit-4.11.jar" />
+<!-- Path to the Hamcrest jar. -->
+<property name="hamcrest.jar" value="TaintTracking/libs/hamcrest-core-1.3.jar" />
+<!-- Path to the Soot project. -->
+<property name="soot.dir" location="../workspace-team-project/Soot" />
+<!-- Path to the SootUtils project. -->
+<property name="sootUtils.dir" location="SootUtils" />
+<!-- Path to the Annotations project. -->
+<property name="annotations.dir" location="Annotations" />
+<!-- Path to the TaintTracking project. -->
+<property name="taintTracking.dir" location="TaintTracking" />
+<!-- Path to the Testcases project. -->
+<property name="testcases.dir" location="Testcases" />
+<!-- Initial class of the failing testcases. -->
+<property name="testcases.class.failing" value="taintTrackingFail.TaintTrackingFail" />
+<!-- Initial class of the successing testcases. -->
+<property name="testcases.class.success" value="taintTrackingSuccess.TaintTrackingSuccess" />
+<!-- Should compile the Soot project? -->
+<property name="enable.soot.compile" value="false" />
+<!-- Path to the Soot jar. -->
+<property name="soot.jar" value="../workspace-team-project/soot-2.5.0/lib/soot-2.5.0.jar" />
+<!-- Path to the rt jar. -->
+<property name="rt.jar" value="/home/fennell/.nix-profile/lib/openjdk/jre/lib/rt.jar" />
+<!-- Should test the result? -->
+<property name="enable.junit" value="true" />
+<!-- Should print the jimple source code? -->
+<property name="enable.jimple" value="true" />
+<!-- Should print the javadoc? -->
+<property name="enable.javadoc" value="true" />
+
+</project>
